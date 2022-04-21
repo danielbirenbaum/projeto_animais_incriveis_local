@@ -1,0 +1,14 @@
+/* --------------- Css da Home-page ---------------  */ 
+
+h1 { color: blue; }
+
+.menu { text-align: right;
+		position: relative;
+		top: -130px;
+		left: -30px;
+		word-spacing: 20px;
+}
+a:hover { color: orange;
+}
+
+h1 { color: blue;}
