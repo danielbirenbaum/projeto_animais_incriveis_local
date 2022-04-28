@@ -7,6 +7,17 @@
 		word-spacing: 20px;
 		font-family: "Helvetica"; /* Se possivel mudar depois para Source Serif Pro */ 
 }
+#criacao_de_conta { word-spacing: 5px !important;
+
+}
 #menu a:hover { color: orange;
 }
+
+#banner {
+	position: relative;
+	left: 70px;
+	font-family: 'Helvetica';
+	color: #1672F0;
+}
+
 
