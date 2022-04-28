@@ -1,0 +1,12 @@
+/* --------------- Css da Home-page ---------------  */ 
+
+#menu { text-align: right;
+		position: relative;
+		top: -130px;
+		left: -30px;
+		word-spacing: 20px;
+		font-family: "Helvetica"; /* Se possivel mudar depois para Source Serif Pro */ 
+}
+#menu a:hover { color: orange;
+}
+
