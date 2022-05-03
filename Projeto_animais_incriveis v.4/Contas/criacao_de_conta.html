@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Crie sua conta | Animais Incríveis</title>
+	
+	<style type="text/css">
+		#titulo_conta { font-family: "Helvetica";
+		color: #000EA3;
+		margin-left: 7%;}
+		
+		#subtitulo_conta { font-family: "Helvetica";
+		color: #000EA3;
+		margin-left: 0%;}
+		
+		fieldset {border: 0;}
+
+		body { background-color: #E1F4F1;
+			   font-family: "Helvetica";
+			   font-size: 1em;
+			   color: #1672F0;
+			   margin-left: 36%;
+			   margin-top: 2%;
+			   justify-content: center;} /* centraliza o conteúdo */ 
+		input { border-radius: 5px;}
+
+		.campo input[type="E-mail"] , input[type="Password"] {padding: 0.2em; /* define o espaço de ocupação */ 
+		border: 1px solid #0342F0; /* cor da borda */ 
+		box-shadow: 2px 2px 2px rgba(0,0,0,0.2); /* define a sombra da box */ 
+		display: block;} /* Display block --> coloca as informações de uma forma organizada com base no block */ 
+
+		.campo input[type="submit"] { font-size: 1.2em;
+		background: #494ee2;
+		border: 0;
+		margin-bottom: 1em;
+		color: #FFFF;
+		padding: 0.2em 0.6em;
+		box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+		text-shadow: 1px 1px 1px rgba(0,0,0,0,0.5);
+		position: absolute;
+		top: 90%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);}
+
+		.campo input[type="submit"]:hover { color: blue;}
+	</style>
+
+</head>
+
+	<body>
+		
+		<div class="campo">
+			<h1 id="titulo_conta">Crie sua conta</h1>
+			<h2 id="subtitulo_conta">Complete com suas informações</h2>
+		</div>
+		
+		<div class="campo">
+		<form>
+			<fieldset>
+			<label id="informacoes">E-mail:</label>
+			<input type="E-mail" name="E-mail" placeholder="exemplo@gmail.com" required="required"> <br>
+			<label id="informacoes">Senha a ser usada:</label>
+			<input type="Password" name="Password" placeholder="Senha" required="required"> <br>
+			<label id="informacoes">Repita a senha:</label>
+			<input type="Password" name="Password" placeholder="Repita senha" required="required"> <br>
+			<input type="submit" name="submit" placeholder="Enviar">
+			</fieldset>
+		</form>
+		</div>
+		
+
+	</body>
+</html>

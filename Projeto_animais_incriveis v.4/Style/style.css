@@ -1,0 +1,46 @@
+/* --------------- Css da Home-page ---------------  */ 
+
+#menu { text-align: right;
+		position: relative;
+		top: -130px;
+		left: -30px;
+		word-spacing: 20px;
+		font-family: "Helvetica"; /* Se possivel mudar depois para Source Serif Pro */ 
+		
+}
+
+#menu a {
+	text-decoration: none;
+}
+#criacao_de_conta { word-spacing: 5px !important;
+
+}
+#menu a:hover { color: orange;
+}
+
+#banner {
+	position: relative;
+	left: 70px;
+	font-family: 'Helvetica';
+	color: #1672F0;
+}
+
+#logo1 { 
+	transition: all .5s;
+	border: 10px solid transparent;
+}
+
+#logo1:hover {
+	border: 10px solid #136497;
+	border-radius: 50%;
+}
+
+#banner1 {
+	transition: all 0.5s;
+    cursor: pointer;
+}
+
+#banner1:hover{
+	-webkit-filter: blur(5px);
+    filter: blur(5px);
+}
